@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="Ett enkelt och gott recept på tunna pannkakor. Perfekt för frukost, brunch eller fika." />
   <meta name="autoor" content="Mengxia Xing" />
   <title>Recept på pannkakor</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,7 +15,12 @@
 <body>
   <div class="container">
     <header role="banner" aria-label="Pannkakor">
-       <img src="assets/pankakor.jpg" alt="Pannkakor" />
+      <picture>
+        <source srcset="assets/pankakor.avif" type="image/avif" />
+        <source srcset="assets/pankakor.webp" type="image/webp" />
+        <img src="assets/pankakor.jpg" alt="Pannkakor" width="1280" height="500" fetchpriority="high"/>
+      </picture>
+     
     </header>
     <main class="content" id="main" role="main" aria-label="Recept på pannkakor">
       <h1>Enkelt recept på pannkakor</h1>
@@ -51,9 +57,9 @@
         <h2>Serveringsförslag</h2>
         <div class="servering-types">
           
-           <img src="assets/servering_1.jpg"  alt="Serveringförslag 1" />
+           <img src="assets/servering_1.jpg"  alt="Serveringförslag 1" loading="lazy" />
 
-           <img src="assets/servering_2.jpg" alt="Serveringförslag 2" />
+           <img src="assets/servering_2.jpg" alt="Serveringförslag 2"  loading="lazy"/>
 
         </div>
 

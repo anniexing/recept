@@ -21,7 +21,7 @@ ul,ol,h1,h2,p,img{
 img {
     object-fit: cover;
     object-position: center;
-    display:block
+    display:block;
 }
 
 /** Body styles */
